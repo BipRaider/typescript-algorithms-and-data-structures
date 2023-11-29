@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/a5node/typescript.git"
+    "url": "git+https://github.com/BipRaider/typescript-algorithms-and-data-structures"
   },
   "keywords": [
     "computer-science",
@@ -31,9 +31,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/a5node/typescript/issues"
+    "url": "https://github.com/BipRaider/typescript-algorithms-and-data-structures/issues"
   },
-  "homepage": "https://github.com/a5node/typescript#readme",
+  "homepage": "https://github.com/BipRaider/typescript-algorithms-and-data-structures#readme",
   "devDependencies": {
     "@types/jest": "^29.5.7",
     "@typescript-eslint/eslint-plugin": "^6.9.1",

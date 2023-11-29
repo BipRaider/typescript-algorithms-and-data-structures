@@ -1,0 +1,3 @@
+https://nodejs.org/api/stream.html#stream_class_stream_passthrough
+
+https://nodesource.com/blog/understanding-streams-in-nodejs/

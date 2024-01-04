@@ -62,3 +62,12 @@ function EnumFnObject(data: { Second: number; FN: number; Fourth: 4; First: 'som
 }
 
 EnumFnObject(EnumData);
+
+export const ConstantInterval = {
+  ONE: 'ONE',
+  THIRTY: 'THIRTY',
+  SIXTY: 'SIXTY',
+} as const;
+
+export type TypeInterval = typeof ConstantInterval;
+export type ValueInterval = (typeof ConstantInterval)[keyof typeof ConstantInterval];

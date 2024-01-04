@@ -56,3 +56,16 @@ const types: string = 'types';
 type MappedTypeWithNewKeys<T> = {
   [K in keyof T]: T[K];
 };
+
+
+export const ConstantLanguage = {
+	UK: "uk",
+	RU: "ru",
+	EN: "en",
+} as const;
+export type TypeLanguage = typeof ConstantLanguage;
+export type ValueLanguage =
+	(typeof ConstantLanguage)[keyof typeof ConstantLanguage];
+export type TypeLanguageKey<T> = {
+	[key in ValueLanguage]: T;
+};
